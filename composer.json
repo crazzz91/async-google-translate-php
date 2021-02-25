@@ -1,0 +1,25 @@
+{
+    "name": "crazzz91/async-google-translate-php",
+    "description": "Free Asynchronous Google Translate API PHP Package",
+    "keywords": ["google", "translate", "translator", "php", "proxy", "async", "asynchronous"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "crazzz91",
+            "email": "crazzz91@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4|^8",
+        "guzzlehttp/guzzle": "~6.0|~7.0",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crazzz91\\AsyncGoogleTranslate\\": "src/"
+        }
+    }
+}
